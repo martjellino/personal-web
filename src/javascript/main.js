@@ -2,10 +2,10 @@ import Typed from "typed.js";
 
 new Typed("#prod-heading", {
   strings: [
-    "I'll help you building nice apps like E-Commerce",
-    "I'll help you building nice apps like Chat App",
-    "I'll help you building nice apps like Car Rental",
-    "I'll help you building nice apps like e-Wallet",
+    "I'll help you building nice apps like E-Commerce...",
+    "I'll help you building nice apps like Chat App...",
+    "I'll help you building nice apps like Car Rental...",
+    "I'll help you building nice apps like e-Wallet...",
     "And many more...!"
   ],
   typeSpeed: 78,

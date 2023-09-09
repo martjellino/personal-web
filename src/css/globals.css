@@ -1403,14 +1403,6 @@ h3{
   width: 100%;
 }
 
-.w-24{
-  width: 6rem;
-}
-
-.w-48{
-  width: 12rem;
-}
-
 .max-w-5xl{
   max-width: 64rem;
 }
@@ -1818,6 +1810,10 @@ h3{
   text-align: center;
 }
 
+.font-montserrat{
+  font-family: Montserrat;
+}
+
 .text-2xl{
   font-size: 1.5rem;
   line-height: 2rem;
@@ -2053,11 +2049,6 @@ h3{
   border-color: rgb(209 213 219 / var(--tw-border-opacity));
 }
 
-.hover\:border-l-indigo-400:hover{
-  --tw-border-opacity: 1;
-  border-left-color: rgb(141 162 251 / var(--tw-border-opacity));
-}
-
 .hover\:bg-blue-800:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(30 66 159 / var(--tw-bg-opacity));
@@ -2066,6 +2057,11 @@ h3{
 .hover\:bg-gray-100:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-indigo-100:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 237 255 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-purple-900:hover{
@@ -2081,21 +2077,6 @@ h3{
 .hover\:bg-white:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-indigo-400:hover{
-  --tw-bg-opacity: 1;
-  background-color: rgb(141 162 251 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-indigo-200:hover{
-  --tw-bg-opacity: 1;
-  background-color: rgb(205 219 254 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-indigo-100:hover{
-  --tw-bg-opacity: 1;
-  background-color: rgb(229 237 255 / var(--tw-bg-opacity));
 }
 
 .hover\:text-blue-600:hover{

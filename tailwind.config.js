@@ -2,7 +2,11 @@
 export default {
   content: ["./index.html", "/src/**/*.{js}", "./node_modules/flowbite/**/*.js"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'montserrat': ['Montserrat']
+      }
+    },
   },
   darkMode: 'class',
   plugins: [
